@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .title{
+    @apply text-[#FF8A00] font-semibold text-xl md:text-2xl xl:text-3xl
+  }
+  .validateInput{
+    @apply inline text-[#bf1650] before:content-['⚠'] font-semibold text-xs 
+  }
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #FFFAE6;
+  }
+
