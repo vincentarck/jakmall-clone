@@ -25,7 +25,7 @@ function Breadcumb({ idActive }) {
         <div className={`w-6 h-6 lg:w-8 lg:h-8 rounded-full flex items-center justify-center ${(page === "shipping" || page === "finish") ? "bg-[#FF8A00]" : "bg-yellow-500" }`}>
           <span className="text-sm font-semibold md:text-base">2</span>
         </div>
-        <p className="text-[#FF8A00] text-lg font-semibold">Delivery</p>
+        <p className="text-[#FF8A00] text-lg font-semibold">Payment</p>
       </div>
       <div className="w-3 h-2 md:w-5 md:h-4">
         <Image
@@ -40,7 +40,7 @@ function Breadcumb({ idActive }) {
         <div className={`w-6 h-6 lg:w-8 lg:h-8 rounded-full flex items-center justify-center ${(page === "finish") ? "bg-[#FF8A00]" : "bg-yellow-500" }`}>
           <span className="text-sm font-semibold md:text-base">3</span>
         </div>
-        <p className="text-[#FF8A00] text-lg font-semibold">Delivery</p>
+        <p className="text-[#FF8A00] text-lg font-semibold">Finish</p>
       </div>
     </div>
   );
