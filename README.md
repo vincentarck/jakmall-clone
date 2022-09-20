@@ -11,6 +11,7 @@ yarn dev
 ```
 
 ## Take Home Project - Jakmall Form Shipment
+>   Project ini tentang UI/UX dari halaman mini Checkout Jackmall
 
 1. Styling menggunakan TailwindCSS
 2. Form Validasi dan funcsionalitas menggunakan React Hook Form
