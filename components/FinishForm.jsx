@@ -9,10 +9,10 @@ function FinishForm() {
     harga: localStorage.getItem("shipmentPrice"),
   };
   localStorage.setItem("finish", "done")
+  
   const router = useRouter()
   const deliveryEstimate = () => {
     let est = "";
-    const router = useRouter();
     const {
       query: { page },
     } = router;
